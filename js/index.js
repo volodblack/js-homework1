@@ -1,8 +1,11 @@
+let x1 = 0;
+let x2 = 0;
+
 const a = parseFloat(prompt('Enter a '));
 const b = parseFloat(prompt('Enter b '));
 const c = parseFloat(prompt('Enter c '));
 
-const answer = solveQuadraticEquation();
+const answer = solveQuadraticEquation(x1, x2);
 document.write(answer);
 
 function solveQuadraticEquation(x1, x2) {
